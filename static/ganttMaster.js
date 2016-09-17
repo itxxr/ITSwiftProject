@@ -45,7 +45,7 @@ function GanttMaster() {
 
   this.currentTask; // task currently selected;
 
-  this.resourceUrl = 'res/'; // URL to resources (images etc.)
+  this.resourceUrl = '/static/res/'; // URL to resources (images etc.)
   this.__currentTransaction;  // a transaction object holds previous state during changes
   this.__undoStack = [];
   this.__redoStack = [];
